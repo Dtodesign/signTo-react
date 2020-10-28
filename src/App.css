@@ -12,6 +12,10 @@
 
 .btn{
 border-radius: 220px;
+color: rgb(255, 255, 255);
+font-style: italic;
+font-weight: bold;
+
 }
 .navbar-brand{
   font-size: 25px;

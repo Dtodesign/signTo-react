@@ -55,7 +55,7 @@ const SeminarList = () => {
                     {seminars && seminars.map((seminar) => (
 
 
-                        <div className="row  align-item-start" key={seminar.id}>
+                        <div className="row  align-item-start text" key={seminar.id}>
                             <div className="col">
                                 <img src={imgSem04} alt={imgSem04} className="img-circle" />
                                 <div className="col-md-12">
@@ -85,10 +85,12 @@ const SeminarList = () => {
                                     
                                     
                                     
-
+                                    <br/>
                                 </div>
+                                <br/>
+                                <br/>
                             </div>
-
+                        <br/>
                         </div>
 
 

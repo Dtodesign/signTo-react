@@ -18,7 +18,7 @@ export default function Home() {
                         <MDBJumbotron style={{ padding: 0 }}>
                             <MDBCol className="text-white text-center py-5 px-4 my-5 header-img">
                                 <MDBCol className="py-5">
-                                    <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold header-text"> "Herbal products are medicines derived from plants"</MDBCardTitle>
+                                    <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold header-text">Herbal products are medicines derived from plants</MDBCardTitle>
                                     <p className="mx-5 mb-5 header-text-pp">
                                     </p>
                                     <p className="mx-5 mb-5 header-text-p">
@@ -39,7 +39,7 @@ export default function Home() {
                                 </MDBCol>
                             </MDBCol>
                         </MDBJumbotron>
-                        <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold header-text"></MDBCardTitle>
+                        <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold"></MDBCardTitle>
 
                     </MDBCol>
                 </MDBRow>
@@ -50,33 +50,3 @@ export default function Home() {
 }
 
 
-/*
-<MDBContainer className="mt-5 text-center myHeader">
-className="young-passion-gradient color-block-5 mb-3 mx-auto rounded-circle z-depth-1-half"
-<MDBRow>
-    <MDBCol>
-        <MDBJumbotron className="p-0">
-            <MDBCardImage
-                className="img-fluid"
-                src={headerImg}
-            />
-            <MDBCardBody>
-                <MDBCardTitle className="h3"></MDBCardTitle>
-                <MDBCardText>
-                    "Herbal products are medicines derived from plants"
-                </MDBCardText>
-                <MDBBtn href="#" gradient="purple" rounded>
-                    Go to Seminars
-                     </MDBBtn>
-            </MDBCardBody>
-        </MDBJumbotron>
-    </MDBCol>
-</MDBRow>
-</MDBContainer> */
-
-/*  <div className="container-fluid bg-1 text-center">
-                <h3 className="margin"></h3>
-
-                <img src={headerImg} className="img-responsive headerImg" alt="Bird" />
-                <h3 className="margin">"Herbal products are medicines derived from plants"</h3>
-            </div> */

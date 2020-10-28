@@ -1,65 +1,90 @@
-.headerImg{
-   
+.headerImg {
+
     width: 70%;
     background-repeat: no-repeat;
 }
-.margin{
-    margin-top: 40px; 
+
+.margin {
+    margin-top: 40px;
     margin-bottom: 30px;
 }
+
 .myHeader {
     width: 100%;
     padding-right: 50px;
     padding-left: -50px;
 }
 
-.header-img{
-        background-image: url(../Home/headerImg.jpg);
-        opacity: 0.8;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        
+.header-img {
+    background-image: url(../Home/headerImg.jpg);
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
 }
-.header-text{
-    
-    color: rgb(255, 255, 255);
+
+.header-text {
+
+    display: inline-block;
+    color: rgb(0, 0, 0);
     font-family: 'Averia Libre', cursive;
     font-weight: bold;
+    font-size: 60px;
+    color: black;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    /* text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #88cf7f,
+        0 0 70px #88cf7f,
+        0 0 80px #88cf7f,
+        0 0 100px #88cf7f,
+        0 0 150px #88cf7f; */
 }
-.header-text-p{
-    color:  rgb(0, 0, 0);
-    font-size: 15px;
+
+.header-text-p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
     font-weight: bold;
     font-family: 'Averia Libre', cursive;
     justify-content: center;
+    
 }
-.header-text-pp{
-    color:  rgb(255, 255, 255);
+
+.header-text-pp {
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: bold;
     font-family: 'Averia Libre', cursive;
     justify-content: center;
     text-shadow: rgb(255, 255, 255);
 }
-.my-h4{
+
+.my-h4 {
     font-size: 33px;
     font-weight: bold;
     margin-top: 20px;
 }
-.homeBtn{
+
+.homeBtn {
     color: rgb(255, 255, 255);
 }
+
 .color-block-5 {
-    
-        width: 150px;
-        height: 150px;
-  }
-  .btn-txt-home{
+
+    width: 150px;
+    height: 150px;
+}
+
+.btn-txt-home {
     text-align: center;
     /* margin-top: 50px; */
     font-size: 14px;
     margin-bottom: 0px;
     margin-top: 15px;
     font-weight: bold;
-  }
+}

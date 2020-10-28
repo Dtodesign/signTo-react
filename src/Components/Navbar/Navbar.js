@@ -8,12 +8,12 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom ">
         <a className="navbar-brand" href="/">
-          SignToSeminar
+          |Sign||To||Seminar|
           </a>
 
         <div className="nav-item dropdown">
           <a className="nav-link dropdown-toggle adminNav " href=" /" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Admin
+            ADMIN
         </a>
           <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a className=" dropdown-item nav-link  mr-auto " href="/ListOfSem">
