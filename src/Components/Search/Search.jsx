@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import SeminarDataService from "../../Services/SeminarService";
-import { MDBCol,MDBIcon } from "mdbreact";
+import { MDBCol, MDBIcon } from "mdbreact";
 
 
 
@@ -66,7 +66,7 @@ const Search = () => {
                 <ul>
                     {searchTitle ? (
                         searchResult.map(item => (
-                            <div key={item.id} ><br /><a href={["/semInfo/"] + item.id}> {item.title} </a></div>
+                            <div key={item.id} ><br /><a className="searchResult" href={["/semInfo/"] + item.id}> {item.title} </a></div>
                         ))) : null}
                 </ul>
             }

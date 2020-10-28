@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SeminarDataService from "../../Services/SeminarService";
-
+import {Link} from 'react-router-dom';
 
 import './Seminar.css';
 
@@ -83,7 +83,7 @@ const Seminar = props => {
         };
 
         return(
-            <div >
+            <div className="container inline">
                     <div className="jumbotron">
                         {currentSeminar ? (
                             <div className="edit-form">
@@ -174,6 +174,8 @@ const Seminar = props => {
                                         <div>
                                              <p className="updateMessage">{message}</p>
                                         </div>
+                                        <Link to="/ListOfSem/"
+                    className="btn btn-warning btn-lg infoModal">Back to Semianrs</Link>
                             </div>
                         ): (
                             <div>

@@ -51,8 +51,11 @@ const ListOfBooking = () => {
     };
 
     return (
-        <div className="jumbotron text">
-            <div className="list row">
+        <div className="container inline text">
+            <br/>
+            <br/>
+            <br/>
+            <div className="list row jumbotron">
 
                 <div className="col-sm-6">
                     <h4>Booking List</h4>
@@ -65,7 +68,7 @@ const ListOfBooking = () => {
                                     + (index === currentIndex ? "active" : " ")
                                 }
                                 onClick={() => setActiveBooking(booking, index)}
-                                key={index}><h5>{booking.firstName}   {booking.lastName}</h5> <br /> <small> Email : </small>{booking.email}
+                                key={index}><h5>{booking.firstName} {booking.lastName}</h5><small> Email : </small>{booking.email}
                                 <br /><small> Mobile : </small>{booking.mobile} <br /> <small > Message : </small>{booking.message}
                                
                                 </li>

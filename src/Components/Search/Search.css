@@ -12,3 +12,8 @@
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
   }
+
+  .searchResult{
+      font-size: 22px;
+      font-weight: bold;
+  }

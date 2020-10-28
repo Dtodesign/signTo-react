@@ -55,15 +55,19 @@ const ListOfSeminar = () => {
     
 
     return (
-        <div>
+        <div className="container inline">
+            <br/>
+            <br/>
                 <Search />
         
-        <div className="jumbotron">
+        <div className="container block">
             <div className="list row">
  
                 <div className="col-md-6 ">
-                    <h4>Seminars List</h4>
-
+                    <br />
+                    <h4><strong>Seminars List </strong></h4>
+                    <br />
+                    <div className="container">
                     <ul className="list-group ">
                         {seminars && seminars.map((seminar, index) => (
                             <li
@@ -75,53 +79,56 @@ const ListOfSeminar = () => {
                                 key={index}>{seminar.title} </li>
                         ))}
                     </ul>
+                    </div>
                     <div className="removeBtn">
                         <button className="m-3 btn btn-danger btn-lg "
                             onClick={removeAllSeminars}> Remove All </button>
                     </div>
                 </div>
-                <div className="col-md-6 ">
+                
+                <div className="col-md-6 text">
                     {currentSeminar ? (
                         <div>
-                            <h4>Seminar</h4>
+                             <br />
+                            <h4><strong>Seminar Title : </strong>{currentSeminar.title}</h4>
                             <br />
-                            <div className="text-left">
+                           {/*  <div className="text-center">
                                 <label >
                                     <strong>Title:</strong>
                                 </label>{" "}
-                                <div className="text text-justify">
+                                <div className="text text-center">
                                     {currentSeminar.title}
                                 </div>
-                            </div>
+                            </div> */}
                             <br />
                             <div>
-                                <div className="text-left">
-                                    <label>
+                                <div className="text-center">
+                                    <h5>
                                         <strong>Speaker:</strong>
-                                    </label>{" "}
-                                    <div className="text text-justify">
+                                    </h5>{" "}
+                                    <div className="text text-center">
                                         {currentSeminar.speaker}
                                     </div>
                                 </div>
                             </div>
                             <br />
                             <div>
-                                <div className="text-left">
-                                    <label >
+                                <div className="text-center">
+                                    <h5>
                                         <strong>Description:</strong>
-                                    </label>{" "}
-                                    <div className="text text-justify">
+                                    </h5>{" "}
+                                    <div className="text text-center">
                                         {currentSeminar.description}
                                     </div>
                                 </div>
                             </div>
                             <br />
                             <div>
-                                <div className="text-left">
-                                    <label>
+                                <div className="text-center">
+                                    <h5>
                                         <strong>Date-Time:</strong>
-                                    </label>{" "}
-                                    <div className="text text-justify">
+                                    </h5>{" "}
+                                    <div className="text text-center">
                                         {currentSeminar.seminarDateTime}
                                     </div>
                                 </div>
@@ -129,11 +136,11 @@ const ListOfSeminar = () => {
                             <br />
 
                             <div>
-                                <div className="text-left">
-                                    <label>
+                                <div className="text-center">
+                                    <h5>
                                         <strong>Status:</strong>
-                                    </label>{" "}
-                                    <div className="text text-justify">
+                                    </h5>{" "}
+                                    <div className="text text-center">
                                         {currentSeminar.published ? "Published" : "Pending"}
                                     </div>
                                 </div>
@@ -148,14 +155,16 @@ const ListOfSeminar = () => {
 
                             <div>
                                 <br />
+                                <br />
                                 <p>Click on a Seminar...</p>
                             </div>
                         )}
 
                 </div>
+                </div>
             </div>
         </div>
-        </div>
+       
     );
 
 };

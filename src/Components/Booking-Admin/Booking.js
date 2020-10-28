@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import BookingDataService from "../../Services/BookingService";
 
+import {Link} from 'react-router-dom';
 
 import './Booking.css';
 
@@ -85,7 +86,7 @@ const Booking = props => {
         };
 
         return(
-            <div >
+            <div className="container inline">
                     <div className="jumbotron">
                         {currentBooking ? (
                             <div className="edit-form">
@@ -187,6 +188,8 @@ const Booking = props => {
                                         <div>
                                              <p className="updateMessage">{message}</p>
                                         </div>
+                                        <Link to="/ListOfBooking/"
+                    className="btn btn-warning btn-lg infoModal">Back to Bookings List</Link>
                             </div>
                         ): (
                             <div>

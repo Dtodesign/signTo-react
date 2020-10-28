@@ -13,3 +13,10 @@
 	background-size: cover;
 	font:600 16px/18px 'Open Sans',sans-serif;
 }
+
+
+.saveBtn{
+    font-size: 22px;
+    font-weight: bold;
+    color: #252323;
+}

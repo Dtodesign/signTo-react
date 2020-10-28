@@ -1,5 +1,13 @@
 .imgInfo{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
+}
 
+
+.info{
+/*     background-image: url(./imgSem04.jpg);
+ */    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -3,7 +3,7 @@ import SeminarDataService from "../../Services/SeminarService";
 
 import { Link } from "react-router-dom";
 
-import imgInfo from './imgInfo.jpg';
+import imgInfo from './imgAbout02.jpg';
 
 
 import './SeminarInfo.css';
@@ -43,35 +43,33 @@ const Seminar = props => {
 
 
     return (
-        <div >
+        <div className="container inline">
             <div className="col-md-12">
                 <div className="text text-center">
-                    <h4>SEMINAR DETAILS</h4>
+                    <h1>SEMINAR DETAILS</h1>
                 </div>
             </div>
-            <div className="jumbotron">
+            <div className="container-fluid jumbotron info">
 
-
-
-                <div className="col-md-12">
+                <div className="col-md-6 float-left">
                     <img src={imgInfo} alt={imgInfo} className="img-responsive imgInfo" />
                 </div>
 
-                <div className="col-md-12">
+                <div className="col-md-6 float-right">
 
-                    <p className="text justify-content"> <strong>Seminar Title : </strong>{currentSeminar.title}</p>
+                    <p className="text justify-content"> <strong>Seminar Title :</strong><br/>{currentSeminar.title}</p>
 
                 </div>
 
-                <div className="col-md-12">
+                <div className="col-md-6 float-right">
 
                     <p className="text justify-content"><strong>Speaker : </strong>{currentSeminar.speaker}</p>
                 </div>
-                <div className="col-md-12">
+                <div className="col-md-6 float-right">
 
                     <p className="text justify-content"> <strong>Date-Time : </strong> {currentSeminar.seminarDateTime}</p>
                 </div>
-                <div className=" col-md-12">
+                <div className=" col-md-12 float-right">
 
                     <p className="text justify-content"><strong>Description : </strong> {currentSeminar.description}</p>
                 </div>

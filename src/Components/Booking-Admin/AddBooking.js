@@ -61,8 +61,15 @@ const AddBooking = () => {
     };
 
     return(
-        <div >
-        <div className="submit-form jumbotron-book">
+        <div className="container myPage">
+            <br/>
+             <div>
+                    <h2 className="text">Add Booking Page - Admin</h2>
+                    
+                </div>
+            <br/>
+
+        <div className="col-md-12 jumbotron-book">
 
             {submitted ? (
                 <div>
@@ -156,7 +163,10 @@ const AddBooking = () => {
             )}
 
         </div>
+        <br/>
+
         </div>
+        
 
     );
     };

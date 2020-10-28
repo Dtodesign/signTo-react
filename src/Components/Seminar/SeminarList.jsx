@@ -32,11 +32,14 @@ const SeminarList = () => {
    
 
     return (
-        <div>
+        <div className="container inline">
             <div className="text-center">
-                <h2 className="text">UPCOMING SEMINARS</h2>
+                <br/>
+                <h1 className="text">UPCOMING SEMINARS</h1>
             </div>
             <div>
+          
+                <br />
                 <Search />
                 <br />
                 <br />
@@ -47,8 +50,6 @@ const SeminarList = () => {
            
 
             <div className="container ">
-
-
 
                 <div className="row row-cols-1 row-cols-sm-3">
                     {seminars && seminars.map((seminar) => (
@@ -81,6 +82,7 @@ const SeminarList = () => {
                                     <Link to={["/semInfo/"] + seminar.id}
                                         className="btn btn-lg ">Details
                                     </Link>
+                                    
                                     
                                     
 

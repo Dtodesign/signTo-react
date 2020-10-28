@@ -83,7 +83,7 @@ const SeminarRegister = (props) => {
     };
 
     return(
-        <div >
+        <div className="container inline">
         <div className="submit-form jumbotron">
 
             {submitted ? (

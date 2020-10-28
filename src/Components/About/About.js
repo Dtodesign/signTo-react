@@ -17,13 +17,12 @@ import {
 
 export default function About() {
     return (
-        <div>
+        <div className="container inline">
             <section id="about" className="section about">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <h2 className="about">ABOUT US</h2>
-
+                            <h1 className="about">ABOUT US</h1>
                             <MDBContainer>
                                 <MDBCarousel
                                     activeItem={1}
