@@ -26,9 +26,10 @@ export default function Home() {
                                         An yat cala silninquita, as lor nalanta etéraettul,
                                         tata ataqua aratar mi mir. Yalúmëa tellaurë sa qua.
                                         Né apa nírë silma. Handa goneheca má yav, pio cíla linta sí.
-                                        Terca omentië ta nén.barmetta up, uë aro aqua onótima, yá heru yelma etelotya foa. En vi
-                                        ë lingwë ettelen, ai occo felmë toa. Má not palmë tasar hravan, rá yulmë vilya
+                                        Terca oment
                                     </p>
+                        <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold"></MDBCardTitle>
+                                    
                                     <MDBBtn  gradient="peach"
                                         size="lg"
                                         className="mb-5 homeBtn"
