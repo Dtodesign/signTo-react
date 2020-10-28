@@ -1,0 +1,65 @@
+.headerImg{
+   
+    width: 70%;
+    background-repeat: no-repeat;
+}
+.margin{
+    margin-top: 40px; 
+    margin-bottom: 30px;
+}
+.myHeader {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: -50px;
+}
+
+.header-img{
+        background-image: url(../Home/headerImg.jpg);
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        
+}
+.header-text{
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Averia Libre', cursive;
+    font-weight: bold;
+}
+.header-text-p{
+    color:  rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Averia Libre', cursive;
+    justify-content: center;
+}
+.header-text-pp{
+    color:  rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Averia Libre', cursive;
+    justify-content: center;
+    text-shadow: rgb(255, 255, 255);
+}
+.my-h4{
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.homeBtn{
+    color: rgb(255, 255, 255);
+}
+.color-block-5 {
+    
+        width: 150px;
+        height: 150px;
+  }
+  .btn-txt-home{
+    text-align: center;
+    /* margin-top: 50px; */
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: bold;
+  }

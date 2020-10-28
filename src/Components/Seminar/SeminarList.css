@@ -1,0 +1,50 @@
+
+.sem-footer .btn:hover {
+    border: 1px solid mediumseagreen;
+    background-color: #fff !important;
+    color: mediumseagreen;
+    width: 150px;
+}
+
+
+.sem-footer {
+    background-color: white !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-width: 0px;
+}
+
+.sem-footer .btn {
+    margin: 15px 0;
+    background-color: mediumseagreen;
+    color: #fff;
+    width: 150px;
+}
+.text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Averia Libre', cursive;
+}
+.btn.btn-lg.bookModal{
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+.btn.btn-lg.infoModal{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.img-circle{
+    margin-bottom: 22px;
+    border-radius: 125px;
+    background-repeat: no-repeat;
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-img-top{
+    width: 100%;
+    
+}

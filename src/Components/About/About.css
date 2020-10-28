@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,300&display=swap');
+
+.about-img {
+    
+    width: 100%;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+
+}
+
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    font-family: 'Averia Libre', cursive;
+    
+}

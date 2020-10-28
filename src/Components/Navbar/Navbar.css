@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,300&display=swap');
+.navbar{
+    margin-bottom: 0;
+    background-color: rgb(60, 179, 114) !important;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: 'Averia Libre', cursive;
+    font-size: 16px;
+}
+
+
+.navbar-custom .navbar-nav a {
+    margin: 0;
+}
+
+.navbar-custom .navbar-nav>a {
+    color: rgba(255, 255, 255, 0.94) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Averia Libre', cursive;
+    border-bottom: 7px solid transparent;
+}
+
+.navbar-custom .navbar-nav>a:focus,
+.navbar-custom .navbar-nav>a:hover {
+    background-color: transparent;
+    border-color: rgb(4, 89, 51);
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-color: rgb(4, 89, 51);
+}
+
+.navbar-light .navbar-brand{
+    color: rgba(255, 255, 255, 0.94) !important;
+}
+.adminNav{
+    color: rgba(255, 255, 255, 0.94) !important;
+}

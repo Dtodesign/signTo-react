@@ -1,0 +1,15 @@
+.jumbotron-book{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50PX;
+    
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+    background:url(https://images.hdqwalls.com/wallpapers/new-colors-flare-abstract-0h.jpg) no-repeat fixed center transparent;
+    opacity: 0.8;
+    background-attachment: fixed;
+	background-size: cover;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
