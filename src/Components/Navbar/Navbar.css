@@ -20,9 +20,10 @@
 .navbar-custom .navbar-nav>a {
     color: rgba(255, 255, 255, 0.94) !important;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Averia Libre', cursive;
     border-bottom: 7px solid transparent;
+    font-weight: bold;
 }
 
 .navbar-custom .navbar-nav>a:focus,

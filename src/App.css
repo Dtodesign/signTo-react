@@ -13,3 +13,17 @@
 .btn{
 border-radius: 220px;
 }
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+.myNav{
+  font-size: 22px;
+}
+.nav-item{
+  font-size: 22px;
+}
+
+.list-group{
+  font-weight: bold;
+}

@@ -55,10 +55,13 @@ const ListOfBooking = () => {
             <br/>
             <br/>
             <br/>
-            <div className="list row jumbotron">
+            <div className="list row">
 
-                <div className="col-sm-6">
-                    <h4>Booking List</h4>
+                <div className="col-md-6">
+                    <br/>
+                    <h2>Bookings List</h2>
+                    <br/>
+                    <br/>
 
                     <ul className="list-group">
                         {bookings && bookings.map((booking, index) => (
@@ -68,8 +71,8 @@ const ListOfBooking = () => {
                                     + (index === currentIndex ? "active" : " ")
                                 }
                                 onClick={() => setActiveBooking(booking, index)}
-                                key={index}><h5>{booking.firstName} {booking.lastName}</h5><small> Email : </small>{booking.email}
-                                <br /><small> Mobile : </small>{booking.mobile} <br /> <small > Message : </small>{booking.message}
+                                key={index}><h6>{booking.firstName} {booking.lastName}</h6><strong> Email: </strong>{booking.email}
+                                <br />{/* <strong> Mobile: </strong>{booking.mobile} <br /> <strong> Message: </strong>{booking.message} */}
                                
                                 </li>
                         ))}
@@ -79,84 +82,63 @@ const ListOfBooking = () => {
                             onClick={removeAllBookings}> Remove All </button>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-md-6">
                     {currentBooking ? (
                         <div>
-                            <h4>Booking</h4>
+                                <br />
+                                <h2>Booking</h2>
                             <br />
+                            <br />
+
                             <div className="text-center">
-                                <label >
-                                    <strong>Firstname:</strong>
-                                </label>{" "}
-                                <div className="text text-center">
-                                    {currentBooking.firstName}
+                                <h5>
+                                   FullName: {currentBooking.firstName} {currentBooking.lastName}
+                                </h5>
+                            </div>
+                            <br />
+                           
+                            <div>
+                                <div className="text-center">
+                                    <h5>
+                                        <strong>Email:</strong>  {currentBooking.email}
+                                    </h5>
+                                    
                                 </div>
                             </div>
                             <br />
                             <div>
                                 <div className="text-center">
-                                    <label>
-                                        <strong>Lastname:</strong>
-                                    </label>{" "}
-                                    <div className="text text-center">
-                                        {currentBooking.lastName}
-                                    </div>
-                                </div>
-                            </div>
-                            <br />
-                            <div>
-                                <div className="text-center">
-                                    <label >
-                                        <strong>Email:</strong>
-                                    </label>{" "}
-                                    <div className="text text-center">
-                                        {currentBooking.email}
-                                    </div>
-                                </div>
-                            </div>
-                            <br />
-                            <div>
-                                <div className="text-center">
-                                    <label>
-                                        <strong>Mobile:</strong>
-                                    </label>{" "}
-                                    <div className="text text-center text-justify">
-                                        {currentBooking.mobile}
-                                    </div>
+                                    <h5>
+                                        <strong>Mobile:</strong> {currentBooking.mobile}
+                                    </h5>
+                                    
                                 </div>
                             </div>
                             <br />
 
                             <div>
                                 <div className=" text-center">
-                                    <label>
-                                        <strong>Message:</strong>
-                                    </label>{" "}
-                                    <div className="text   text-center text-justify">
-                                        {currentBooking.message}
-                                    </div>
+                                    <h5>
+                                        <strong>Message:</strong> {currentBooking.message}
+                                    </h5>
+                                    
                                 </div>
                             </div>
                             <br />
                             <div>
                                 <div className=" text-center">
-                                    <label>
-                                        <strong>Seminar ID:</strong>
-                                    </label>{" "}
-                                    <div className="text  text-center text-justify">
-                                        {currentBooking.seminarId}
-                                    </div>
+                                    <h5>
+                                        <strong>Seminar ID:</strong> {currentBooking.seminarId}
+                                    </h5>
                                 </div>
                             </div>
                             <br />
                             <div>
                                 <div className=" text-center">
-                                    <label>
-                                        <strong>Status:</strong>
-                                    </label>{" "}
-                                    <div className="text   text-center text-justify">
-                                        {currentBooking.published ? "Published" : "Pending"}
-                                    </div>
+                                    <h5>
+                                        <strong>Status:</strong>  {currentBooking.published ? "Published" : "Pending"}
+                                    </h5>{" "}
+                                    
                                 </div>
                             </div>
                             <br />
@@ -168,6 +150,8 @@ const ListOfBooking = () => {
                     ) : (
 
                             <div>
+                                <br />
+                                <br />
                                 <br />
                                 <p>Click on a Booking...</p>
                             </div>

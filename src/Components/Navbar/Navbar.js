@@ -50,7 +50,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ml-auto">
+          <div className="navbar-nav ml-auto myNav">
             <a className="nav-link active" href="/">
               Home <span className="sr-only">(current)</span>
             </a>

@@ -55,7 +55,7 @@ const ListOfSeminar = () => {
     
 
     return (
-        <div className="container inline">
+        <div className="container inline text">
             <br/>
             <br/>
                 <Search />
