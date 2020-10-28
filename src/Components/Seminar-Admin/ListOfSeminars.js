@@ -55,12 +55,13 @@ const ListOfSeminar = () => {
     
 
     return (
-        <div className="container inline text">
+        <div className="container text">
             <br/>
             <br/>
+            <div className="container">
                 <Search />
-        
-        <div className="container block">
+                </div>
+        <div className="container ">
             <div className="list row">
  
                 <div className="col-md-6 ">
@@ -88,49 +89,43 @@ const ListOfSeminar = () => {
                 
                 <div className="col-md-6 text">
                     {currentSeminar ? (
+                     
+
                         <div>
-                             <br />
-                            <h4><strong>Seminar Title : </strong>{currentSeminar.title}</h4>
+                           
+                           <br />
                             <br />
-                           {/*  <div className="text-center">
-                                <label >
-                                    <strong>Title:</strong>
-                                </label>{" "}
-                                <div className="text text-center">
-                                    {currentSeminar.title}
-                                </div>
-                            </div> */}
+                            <br />
+                            <br />
+                            <div className="text-center">
+                                <h5 >
+                                    <strong>TITLE: </strong> {currentSeminar.title}
+                                </h5>
+                            </div> 
                             <br />
                             <div>
                                 <div className="text-center">
                                     <h5>
-                                        <strong>Speaker:</strong>
-                                    </h5>{" "}
-                                    <div className="text text-center">
-                                        {currentSeminar.speaker}
-                                    </div>
+                                        <strong>SPEAKER: </strong> {currentSeminar.speaker}
+                                    </h5>
+                                    
                                 </div>
                             </div>
                             <br />
                             <div>
                                 <div className="text-center">
                                     <h5>
-                                        <strong>Description:</strong>
-                                    </h5>{" "}
-                                    <div className="text text-center">
-                                        {currentSeminar.description}
-                                    </div>
+                                        <strong>DESCRIPTION:  </strong> {currentSeminar.description}
+                                    </h5>
+                                   
                                 </div>
                             </div>
                             <br />
                             <div>
                                 <div className="text-center">
                                     <h5>
-                                        <strong>Date-Time:</strong>
-                                    </h5>{" "}
-                                    <div className="text text-center">
-                                        {currentSeminar.seminarDateTime}
-                                    </div>
+                                        <strong>DATE-TIME:</strong>  {currentSeminar.seminarDateTime}
+                                    </h5>
                                 </div>
                             </div>
                             <br />
@@ -138,11 +133,8 @@ const ListOfSeminar = () => {
                             <div>
                                 <div className="text-center">
                                     <h5>
-                                        <strong>Status:</strong>
-                                    </h5>{" "}
-                                    <div className="text text-center">
-                                        {currentSeminar.published ? "Published" : "Pending"}
-                                    </div>
+                                        <strong>Status:</strong>  {currentSeminar.published ? "Published" : "Pending"}
+                                    </h5>
                                 </div>
                             </div>
                             <br />

@@ -6,8 +6,8 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-        <a className="navbar-brand " href="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom ">
+        <a className="navbar-brand" href="/">
           SignToSeminar
           </a>
 
