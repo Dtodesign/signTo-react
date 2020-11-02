@@ -66,25 +66,24 @@ const AddSeminar = () => {
         {submitted ? (
           <div>
             <h4>Successful Submit!</h4>
+            <br/>
             <MDBBtn
               color="success"
               onClick={newSeminar}
-              className="btn btn-success btn-lg"
-            >
-              Save Seminar
+              className="btn btn-success btn-lg">
+              Add Seminar
             </MDBBtn>
 
             <MDBBtn
               href="/ListOfSem/"
               color="secondary"
-              className="btn btn-warning btn-lg"
-            >
+              className="btn btn-warning btn-lg">
               Back to Seminars
             </MDBBtn>
           </div>
         ) : (
           <div className="col-md-12">
-            <div className="form-group ">
+            <div className="form-group">
               <label htmlFor="title"></label>
               <input
                 type="text"
